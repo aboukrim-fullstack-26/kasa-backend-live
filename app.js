@@ -18,6 +18,7 @@ app.use(cors({
     'http://localhost:3000',    // Next.js dev
     'http://localhost:3001',    // Next.js alt port
     'https://kasa.vercel.app',  // Production
+    'https://kasa-app-live.vercel.app',
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PATCH', 'DELETE', 'OPTIONS'],
